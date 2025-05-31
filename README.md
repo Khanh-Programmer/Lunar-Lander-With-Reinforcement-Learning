@@ -77,9 +77,7 @@ Chúng tôi sử dụng **LunarLander-v3**, một môi trường mô phỏng vi�
 Với thuật toán DQN, tỷ lệ hạ cánh thành công của tàu vũ đạt mức khá cao với 95.6%, Double-DQN phiên bản cải tiến của thuật toán DQN đạt tỷ lệ thành công tới 99.7%. Với thuật toán DQN, tỷ lệ hạ cánh thành công của tàu vũ trụ đạt mức khá cao với 95.6%, trong khi Double-DQN – phiên bản cải tiến của DQN – đạt tỷ lệ thành công lên tới 99.7%. Điều này cho thấy rằng cả hai thuật toán đều có khả năng học chính sách hiệu quả trong môi trường LunarLander-v3. Tuy nhiên, Double DQN vượt trội hơn nhờ khả năng giảm thiểu hiện tượng quá ước lượng giá trị Q (Q-value overestimation), vốn là một điểm yếu cố hữu của DQN thuần túy.Double DQN không chỉ cải thiện hiệu suất mà còn đảm bảo sự ổn định lâu dài cho quá trình học trong môi trường giả lập hạ cánh này. Nó là lựa chọn ưu tiên khi triển khai các bài toán có không gian hành động rời rạc và yêu cầu học chính sách tối ưu ổn định đặc biệt với môi trường Lunar-Lander-v3.  
 
 ## 📽️ Video mô phỏng mô hình (Double DQN)
-
-🎞️ **Tên file**: `lunarlander_demo.mp4`  
-🎬 **Nội dung**: Video mô tả quá trình hạ cánh thành công của tàu vũ trụ sau khi huấn luyện với thuật toán **Double DQN**.  
+🎬 **Nội dung**: Video mô tả quá trình hạ cánh thành công của tàu vũ trụ. 
 📺 **Xem video**:  
 👉 [📽️ Nhấn để xem video](lunar_lander_video.mp4)
 
